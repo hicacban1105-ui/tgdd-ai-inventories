@@ -65,7 +65,7 @@ except Exception as e:
 # GIAO DIỆN CHÍNH
 # ==========================================
 # SỬA LỖI 1: Thay đường dẫn ảnh local của Colab bằng link online an toàn để Web Cloud đọc được
-st.sidebar.image("/content//Logo-The-Gioi-Di-Dong-MWG.webp", use_container_width=True)
+st.sidebar.image("Logo-The-Gioi-Di-Dong-MWG.webp", use_container_width=True)
 st.sidebar.markdown("### ⚙️ BỘ LỌC DỮ LIỆU")
 
 store_list = df['store_id'].unique().tolist()
